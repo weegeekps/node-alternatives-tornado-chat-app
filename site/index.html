@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Node.js Chat Application</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script type="application/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Chat Application</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <form id="message-form" class="form-inline">
+                <div class="form-group">
+                    <input style="min-width: 600px;" type="text" id="chat-message" class="form-control" placeholder="Enter message..." autocomplete="false">
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <hr>
+        <div class="col-md-12" id="chat-window"></div>
+    </div>
+
+    <script type="application/javascript" src="js/app.js"></script>
+</div>
+</body>
+</html>
